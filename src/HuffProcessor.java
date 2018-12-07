@@ -94,7 +94,7 @@ public class HuffProcessor {
 			return;
 		}
 		if (root.myLeft!= null) codingHelper(root.myLeft,path + "0", encodings);
-		if (root.myRight!= null) codingHelper(root.myRight,path + "0", encodings);
+		if (root.myRight!= null) codingHelper(root.myRight,path + "1", encodings);
 	}
 
 	private HuffNode makeTreeFromCounts(int[] counts) {
